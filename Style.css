@@ -35,19 +35,21 @@
             color: var(--buttonInv);
     }
 
-    .Sobre{ /* Estilização do Sobre */
-        display: flex;
-        margin: 15px;
+    .SobreConteudo { 
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+}
 
-    
-    }
+#sobreTexto {
+    margin: 10px 10px 0 50px; 
+    width: 100%; 
+}
 
-        #sobreTexto{ /* Estilização do texto do sobre */
-            margin: 10px 0px 0px 5px;
-            
-        }
+#sobreTitulo{
+    margin: 10px 10px 0px 20px;
+}
 
-        .Foto{ /* Estilização da foto ao lado do sobre */
-            width: 70%; 
-    
-        }
+.Foto { 
+    width: 80%; 
+}
